@@ -118,7 +118,7 @@ public class CreationDeTour : MonoBehaviour
 
                         j += (int)cubeLenght - 1; // SKip the number of block to compensate for the lenght
                     }
-                    else if (j != lineLenght - 1 && g == numberOfFloor - 1)
+                    else if (g == numberOfFloor - 1 && numberOfFloor != 1)
                     {
                         // If the last floor or not a corner, apply the maximum variation so the obect is always smaller than the cube below
                         scale.x *= 1f - ((float)scalingVariation / 100);
