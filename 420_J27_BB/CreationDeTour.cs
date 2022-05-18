@@ -26,8 +26,8 @@ public class CreationDeTour : MonoBehaviour
     public int objectLenghtVariation = 1; // Variation if the object lenght
 
     // Direction to go in asquare pattern
-    private static readonly int[] directionsX = { 1, 0, -1, 0 }; // X direction
-    private static readonly int[] directionsZ = { 0, 1, 0, -1 }; // Y direction
+    private int[] directionsX = { 1, 0, -1, 0 }; // X direction
+    private int[] directionsZ = { 0, 1, 0, -1 }; // Y direction
 
     private int buildingCount = 0; // Used to keep count of building
 
